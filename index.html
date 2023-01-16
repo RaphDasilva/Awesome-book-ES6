@@ -9,6 +9,63 @@
     <title>Awesome Book ES6</title>
 </head>
 <body>
+    <main class="container">
+        <header>
+                <nav>
+                  <div>Awesome Books</div>
+                  <ul>
+                    <li id="list">
+                      <a href="#Book-list">List</a>
+                    </li>
+                    <li id="add-new">
+                      <a href="#Add-new">Add new</a>
+                    </li>
+        
+                    <li class="contact">
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+        </header>
+        <div class="date"><p id="date"></p></div>
+       
+            <section class="books hide block" id="Book-list">
+                <h1>Awesome Books</h1>
+                <div id="booksList" class="booksList"></div>
+            </section>
+            <section class="input-form hide" id="Add-new">
+                <h2>Add a new book</h2>
+                <form class="form">
+                    <input class="title" type="text" name="book name" placeholder="Title" />
+                    <br>
+                    <input class="author" type="text" name="author" placeholder="Author" />
+                    <br>
+                    <button id="addBtn" type="button">Add</button><br />
+                </form>
+            </section>
     
+            <section id="contact" class="hide">
+                <div class="contact-holder">
+                  <div class="contact-header">
+                    <h2>Contact Information</h2>
+                  </div>
+        
+                  <div class="contact-text">
+                    <p>Do you have any questions or you just want to say hello?</p>
+                    <p class="text-2">You can reach out to us!</p>
+                  </div>
+        
+                  <ul class="contact-list">
+                    <li>Our email: dasilvaz2017@gmail.com</li>
+                    <li>Our phone numbers: +2348162114178</li>
+                    <li>Our address: Abuja, Nigeria</li>
+                  </ul>
+                </div>
+              </section>
+        </main>
+        <footer class="footer">
+          <p>Copyright:</p>
+          <p>dasilvaz2017@gmail.com</p>
+        </footer>
 </body>
 </html>
