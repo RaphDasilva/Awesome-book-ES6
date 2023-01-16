@@ -6,6 +6,7 @@ const form = document.querySelector('.form');
 const bookTitle = document.querySelector('.title');
 const bookAuthor = document.querySelector('.author');
 const addBtn = document.querySelector('#addBtn');
+const newDate = document.getElementById('date');
 
 
-export {list,addNew,contact,bookContainer,form,bookTitle,bookAuthor,addBtn};
+export {list,addNew,contact,bookContainer,form,bookTitle,bookAuthor,addBtn,newDate};
