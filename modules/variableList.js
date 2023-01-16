@@ -8,5 +8,6 @@ const bookAuthor = document.querySelector('.author');
 const addBtn = document.querySelector('#addBtn');
 const newDate = document.getElementById('date');
 
-
-export {list,addNew,contact,bookContainer,form,bookTitle,bookAuthor,addBtn,newDate};
+export {
+  list, addNew, contact, bookContainer, form, bookTitle, bookAuthor, addBtn, newDate,
+};
